@@ -62,7 +62,7 @@ public class lab7_02 {
 
 		// validate phone number
 		if (phoneValidator(userPhoneNumber) == true) {
-			System.out.println("Email is valid!");
+			System.out.println("Phone number is valid!");
 		}
 
 		while (phoneValidator(userPhoneNumber) == false) {
@@ -72,7 +72,7 @@ public class lab7_02 {
 			userPhoneNumber = scnr.nextLine();
 
 			if (phoneValidator(userPhoneNumber) == true) {
-				System.out.println("Awesome, I'm gonna blow your phone later.");
+				System.out.println("Awesome, I'm gonna blow your phone up later.");
 			}
 		}
 		// get birthday
